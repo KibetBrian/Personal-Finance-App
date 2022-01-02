@@ -16,6 +16,8 @@ target 'fisa' do
 
   pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
 
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'fisaTests' do
     inherit! :complete
     # Pods for testing

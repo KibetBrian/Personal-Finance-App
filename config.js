@@ -3,6 +3,7 @@ export const configs = {
     primary: '#5CC074',
     secondary: '#4CA060',
     white: "#ffffff",
-    black: "#000000"
+    black: "#000000",
+    grey: "#EBEDE1"
   },
 };

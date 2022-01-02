@@ -3,11 +3,11 @@ import {Text, View,Image, StyleSheet, TouchableHighlight, TouchableOpacity} from
 import LinearGradient from 'react-native-linear-gradient';
 import {configs} from '../config';
 
-const WelcomeScreen = () => {
+const WelcomeScreen = ({navigation}) => {
   const { colors } = configs;
 
   const handleButtonPress = ()=>{
-    alert('Get Started Button Pressed');
+      navigation.navigate("Home");
   }
 
 
